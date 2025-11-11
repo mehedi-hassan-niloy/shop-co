@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "title": "Classic Cotton T-Shirt",
+        "brand": "Casual",
+        "originalPrice": 1200,
+        "discountPrice": 900,
+        "discountPercent": 25,
+        "images": [
+            "https://www.kindpng.com/picc/m/43-438817_plain-white-t-shirt-png-image-background-vit.png",
+            "https://www.kindpng.com/picc/m/109-1099961_black-t-shirt-png-clip-art-transparent-png.png",
+            "https://www.kindpng.com/picc/m/352-3528694_plain-blue-t-shirt-png-image-background-blue.png"
+        ],
+        "colors": [
+            "White",
+            "Black",
+            "Blue"
+        ],
+        "rating": 4.6,
+        "selling": 248,
+        "description": "Soft cotton T-shirt with a relaxed fit and durable stitching. Perfect for everyday casual wear.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Premium Polo Shirt",
+        "brand": "Casual",
+        "originalPrice": 1600,
+        "discountPrice": 1200,
+        "discountPercent": 25,
+        "images": [
+            "https://www.kindpng.com/picc/m/121-1213674_clip-art-red-shirt-png-red-louis-vuitton.png",
+            "https://www.kindpng.com/picc/m/684-6842507_green-t-shirt-png-clip-art-transparent-png.png",
+            "https://www.kindpng.com/picc/m/352-3528702_stick-to-sports-on-navy-blue-t-shirt.png"
+        ],
+        "colors": [
+            "Red",
+            "Green",
+            "Navy"
+        ],
+        "rating": 4.8,
+        "selling": 315,
+        "description": "High-quality cotton polo with ribbed collar and sleeve ends. Elegant and comfortable.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Oversized Graphic Tee",
+        "brand": "Casual",
+        "originalPrice": 1400,
+        "discountPrice": 980,
+        "discountPercent": 30,
+        "images": [
+            "https://www.kindpng.com/picc/m/109-1099961_black-t-shirt-png-clip-art-transparent-png.png",
+            "https://www.kindpng.com/picc/m/43-438817_plain-white-t-shirt-png-image-background-vit.png",
+            "https://www.kindpng.com/picc/m/743-7433698_grey-back-t-shirt-polo-shirt-hd-png.png"
+        ],
+        "colors": [
+            "Black",
+            "White",
+            "Gray"
+        ],
+        "rating": 4.4,
+        "selling": 422,
+        "description": "Trendy oversized tee with bold front print and soft cotton feel. Streetwear essential.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Slim Fit Crewneck",
+        "brand": "Formal",
+        "originalPrice": 1300,
+        "discountPrice": 1040,
+        "discountPercent": 20,
+        "images": [
+            "https://www.kindpng.com/picc/m/48-487218_red-t-shirt-png-clip-art-transparent-png.png",
+            "https://www.kindpng.com/picc/m/43-438817_plain-white-t-shirt-png-image-background-vit.png",
+            "https://www.kindpng.com/picc/m/109-1099961_black-t-shirt-png-clip-art-transparent-png.png"
+        ],
+        "colors": [
+            "Red",
+            "White",
+            "Black"
+        ],
+        "rating": 4.2,
+        "selling": 180,
+        "description": "Minimalist slim-fit T-shirt with breathable fabric. Pairs well with jeans or chinos.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Casual Linen Shirt",
+        "brand": "Formal",
+        "originalPrice": 2000,
+        "discountPrice": 1500,
+        "discountPercent": 25,
+        "images": [
+            "https://www.kindpng.com/picc/m/43-438817_plain-white-t-shirt-png-image-background-vit.png",
+            "https://www.kindpng.com/picc/m/109-1099961_black-t-shirt-png-clip-art-transparent-png.png",
+            "https://www.kindpng.com/picc/m/352-3528694_plain-blue-t-shirt-png-image-background-blue.png"
+        ],
+        "colors": [
+            "White",
+            "Black",
+            "Blue"
+        ],
+        "rating": 4.7,
+        "selling": 274,
+        "description": "Lightweight and airy linen shirt with button-down collar. Ideal for summer wear.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "V-Neck Classic Tee",
+        "brand": "Party",
+        "originalPrice": 1100,
+        "discountPrice": 880,
+        "discountPercent": 20,
+        "images": [
+            "https://www.kindpng.com/picc/m/121-1213674_clip-art-red-shirt-png-red-louis-vuitton.png",
+            "https://www.kindpng.com/picc/m/684-6842507_green-t-shirt-png-clip-art-transparent-png.png",
+            "https://www.kindpng.com/picc/m/352-3528702_stick-to-sports-on-navy-blue-t-shirt.png"
+        ],
+        "colors": [
+            "Red",
+            "Green",
+            "Navy"
+        ],
+        "rating": 4.3,
+        "selling": 191,
+        "description": "Classic V-neck cotton T-shirt for a clean, simple, and timeless look.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Regular Fit Henley Tee",
+        "brand": "Party",
+        "originalPrice": 1500,
+        "discountPrice": 1125,
+        "discountPercent": 25,
+        "images": [
+            "https://www.kindpng.com/picc/m/109-1099961_black-t-shirt-png-clip-art-transparent-png.png",
+            "https://www.kindpng.com/picc/m/43-438817_plain-white-t-shirt-png-image-background-vit.png",
+            "https://www.kindpng.com/picc/m/743-7433698_grey-back-t-shirt-polo-shirt-hd-png.png"
+        ],
+        "colors": [
+            "Black",
+            "White",
+            "Gray"
+        ],
+        "rating": 4.5,
+        "selling": 233,
+        "description": "Comfortable Henley T-shirt featuring a three-button placket and soft jersey fabric.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Athletic Dry-Fit Tee",
+        "brand": "Gym",
+        "originalPrice": 1800,
+        "discountPrice": 1350,
+        "discountPercent": 25,
+        "images": [
+            "https://www.kindpng.com/picc/m/48-487218_red-t-shirt-png-clip-art-transparent-png.png",
+            "https://www.kindpng.com/picc/m/43-438817_plain-white-t-shirt-png-image-background-vit.png",
+            "https://www.kindpng.com/picc/m/109-1099961_black-t-shirt-png-clip-art-transparent-png.png"
+        ],
+        "colors": [
+            "Red",
+            "White",
+            "Black"
+        ],
+        "rating": 4.9,
+        "selling": 531,
+        "description": "Moisture-wicking dry-fit fabric designed for workouts and activewear comfort.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Retro Striped Tee",
+        "brand": "Gym",
+        "originalPrice": 1400,
+        "discountPrice": 1050,
+        "discountPercent": 25,
+        "images": [
+            "https://www.kindpng.com/picc/m/43-438817_plain-white-t-shirt-png-image-background-vit.png",
+            "https://www.kindpng.com/picc/m/109-1099961_black-t-shirt-png-clip-art-transparent-png.png",
+            "https://www.kindpng.com/picc/m/352-3528694_plain-blue-t-shirt-png-image-background-blue.png"
+        ],
+        "colors": [
+            "White",
+            "Black",
+            "Blue"
+        ],
+        "rating": 4.4,
+        "selling": 167,
+        "description": "Vintage-inspired striped T-shirt crafted from soft cotton blend for a stylish retro feel.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Minimal Logo Tee",
+        "brand": "Gym",
+        "originalPrice": 1250,
+        "discountPrice": 1000,
+        "discountPercent": 20,
+        "images": [
+            "https://www.kindpng.com/picc/m/48-487218_red-t-shirt-png-clip-art-transparent-png.png",
+            "https://www.kindpng.com/picc/m/43-438817_plain-white-t-shirt-png-image-background-vit.png",
+            "https://www.kindpng.com/picc/m/109-1099961_black-t-shirt-png-clip-art-transparent-png.png"
+        ],
+        "colors": [
+            "Red",
+            "White",
+            "Black"
+        ],
+        "rating": 4.6,
+        "selling": 289,
+        "description": "Modern minimal design T-shirt with small chest logo. Premium cotton comfort guaranteed.",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    }
+]
