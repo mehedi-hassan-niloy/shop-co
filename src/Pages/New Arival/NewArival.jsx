@@ -3,6 +3,7 @@ import ArivalCard from './ArivalCard'
 
 export default function NewArival() {
     const [products, setProducts] = useState([]);
+    const [showAll, setShowAll] = useState(false);
     useEffect(() => {
         fetch('product.json')
             .then(res => res.json())
@@ -11,6 +12,7 @@ export default function NewArival() {
                 setProducts(data)
             )
     }, []);
+    const visibleProducts = showAll ? products : products.slice(0, 4);
     return (
         <section>
             <div>
@@ -27,7 +29,7 @@ export default function NewArival() {
                         pt-6
                     ">
                 {
-                    products.map(product => <ArivalCard
+                    visibleProducts.map(product => <ArivalCard
                         key={product.id}
                         product={product}
 
@@ -39,6 +41,16 @@ export default function NewArival() {
 
 
             </div>
+            {products.length > 4 && (
+                <div className="flex justify-center mt-8">
+                    <button
+                        onClick={() => setShowAll(!showAll)}
+                        className="bg-black text-white px-6 py-2 rounded-full font-semibold hover:bg-gray-800 transition"
+                    >
+                        {showAll ? "View Less" : "View All"}
+                    </button>
+                </div>
+            )}
         </section >
     )
 }
