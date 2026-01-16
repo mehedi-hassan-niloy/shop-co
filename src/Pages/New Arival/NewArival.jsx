@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import ArivalCard from './ArivalCard'
+import { useSearchParams } from 'react-router-dom';
 
 export default function NewArival() {
-    const [products, setProducts] = useState([]);
+    const [product, setProducts] = useState([]);
     const [showAll, setShowAll] = useState(false);
+    const [searchParams] = useSearchParams();
+
+    const category = searchParams.get("category");
+
     useEffect(() => {
         fetch('product.json')
             .then(res => res.json())
@@ -12,11 +17,16 @@ export default function NewArival() {
                 setProducts(data)
             )
     }, []);
-    const visibleProducts = showAll ? products : products.slice(0, 4);
+    const filteredProducts = category
+        ? product.filter(p => p.brand.toLowerCase() === category)
+        : product;
+    const visibleProducts = showAll ? filteredProducts : filteredProducts.slice(0, 4);
     return (
         <section>
             <div>
-                <p className='text-[48px] font-[Integral CF] font-[700] text-center pt-6'>NEW ARRIVALS</p>
+                <p className='text-[48px] font-[700] text-center pt-6'>
+                    {category ? `${category.toUpperCase()} STYLE` : "NEW ARRIVALS"}
+                </p>
             </div>
             <div className="
                         grid
@@ -26,6 +36,7 @@ export default function NewArival() {
                         lg:grid-cols-4
                         gap-y-8 gap-x-6
                         place-items-center
+                        p-3
                         pt-6
                     ">
                 {
@@ -37,20 +48,18 @@ export default function NewArival() {
                     ></ArivalCard>)
                 }
 
-
-
-
             </div>
-            {products.length > 4 && (
+            {filteredProducts.length > 4 && (
                 <div className="flex justify-center mt-8">
                     <button
                         onClick={() => setShowAll(!showAll)}
-                        className="bg-black text-white px-6 py-2 rounded-full font-semibold hover:bg-gray-800 transition"
+                        className="bg-white text-black px-6 py-2 rounded-full font-semibold border-[1px] border-[#F0EEED]"
                     >
                         {showAll ? "View Less" : "View All"}
                     </button>
                 </div>
-            )}
+            )
+            }
         </section >
     )
 }

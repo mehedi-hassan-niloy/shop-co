@@ -1,7 +1,6 @@
 import React from 'react'
 import { Star, StarHalf } from 'lucide-react'
-
-export default function ArivalCard(props) {
+function TopSellingCard(props) {
     const { title, originalPrice, discountPrice, discountPercent, rating, images } = props.product;
     return (
         <div className='max-w-full w-full sm:w-[280px] md:w-[300px] lg:w-[295px] flex flex-col items-start'>
@@ -37,9 +36,7 @@ export default function ArivalCard(props) {
                 </div>
             </div>
         </div>
-
     )
 }
 
-
-
+export default TopSellingCard

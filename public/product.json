@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Classic Cotton T-Shirt",
-        "brand": "Casual",
+        "brand": "casual",
         "originalPrice": 1200,
         "discountPrice": 900,
         "discountPercent": 25,
@@ -29,7 +29,7 @@
     {
         "id": 2,
         "title": "Premium Polo Shirt",
-        "brand": "Casual",
+        "brand": "casual",
         "originalPrice": 1600,
         "discountPrice": 1200,
         "discountPercent": 25,
@@ -56,7 +56,7 @@
     {
         "id": 3,
         "title": "Oversized Graphic Tee",
-        "brand": "Casual",
+        "brand": "casual",
         "originalPrice": 1400,
         "discountPrice": 980,
         "discountPercent": 30,
@@ -83,7 +83,7 @@
     {
         "id": 4,
         "title": "Slim Fit Crewneck",
-        "brand": "Formal",
+        "brand": "formal",
         "originalPrice": 1300,
         "discountPrice": 1040,
         "discountPercent": 20,
@@ -110,7 +110,7 @@
     {
         "id": 5,
         "title": "Casual Linen Shirt",
-        "brand": "Formal",
+        "brand": "formal",
         "originalPrice": 2000,
         "discountPrice": 1500,
         "discountPercent": 25,
@@ -137,7 +137,7 @@
     {
         "id": 6,
         "title": "V-Neck Classic Tee",
-        "brand": "Party",
+        "brand": "party",
         "originalPrice": 1100,
         "discountPrice": 880,
         "discountPercent": 20,
@@ -164,7 +164,7 @@
     {
         "id": 7,
         "title": "Regular Fit Henley Tee",
-        "brand": "Party",
+        "brand": "party",
         "originalPrice": 1500,
         "discountPrice": 1125,
         "discountPercent": 25,
@@ -191,7 +191,7 @@
     {
         "id": 8,
         "title": "Athletic Dry-Fit Tee",
-        "brand": "Gym",
+        "brand": "gym",
         "originalPrice": 1800,
         "discountPrice": 1350,
         "discountPercent": 25,
@@ -218,7 +218,7 @@
     {
         "id": 9,
         "title": "Retro Striped Tee",
-        "brand": "Gym",
+        "brand": "gym",
         "originalPrice": 1400,
         "discountPrice": 1050,
         "discountPercent": 25,
@@ -245,7 +245,7 @@
     {
         "id": 10,
         "title": "Minimal Logo Tee",
-        "brand": "Gym",
+        "brand": "gym",
         "originalPrice": 1250,
         "discountPrice": 1000,
         "discountPercent": 20,

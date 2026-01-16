@@ -1,0 +1,59 @@
+import React from 'react'
+import { Link } from 'react-router-dom';
+
+function Browsers() {
+
+    return (
+        <section className="max-w-6xl mx-auto px-4 py-10">
+            <div className="bg-[#F2F0EE] rounded-[30px] p-6 md:p-10">
+
+                <h2 className="text-center text-2xl md:text-3xl lg:text-4xl font-extrabold mb-8">
+                    BROWSE BY DRESS STYLE
+                </h2>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                    {/* Casual */}
+                    <Link
+                        to="/products?category=casual"
+                        className="cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[200px] hover:scale-[1.02] transition"
+                    >
+                        <p className="absolute top-4 left-4 text-lg font-semibold z-10">Casual</p>
+                        <img src="/casual.png" className="w-full h-full object-cover" />
+                    </Link>
+
+                    {/* Formal */}
+                    <Link
+                        to="/products?category=formal"
+                        className="cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[200px] hover:scale-[1.02] transition"
+                    >
+                        <p className="absolute top-4 left-4 text-lg font-semibold z-10">Formal</p>
+                        <img src="/formal.png" className="w-full h-full object-cover" />
+                    </Link>
+
+                    {/* Party */}
+                    <Link
+                        to="/products?category=party"
+                        className="cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[220px]"
+                    >
+                        <p className="absolute top-4 left-4 text-lg font-semibold z-10">Party</p>
+                        <img src="/party.png" className="w-full h-full object-cover" />
+                    </Link>
+
+                    {/* Gym */}
+                    <Link
+                        to="/products?category=gym"
+                        className="cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[220px]"
+                    >
+                        <p className="absolute top-4 left-4 text-lg font-semibold z-10">Gym</p>
+                        <img src="/gym.png" className="w-full h-full object-cover" />
+                    </Link>
+                </div>
+
+            </div>
+
+        </section >
+    )
+}
+
+export default Browsers
