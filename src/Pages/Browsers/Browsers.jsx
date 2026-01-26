@@ -11,43 +11,48 @@ function Browsers() {
                     BROWSE BY DRESS STYLE
                 </h2>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
 
                     {/* Casual */}
-                    <Link
-                        to="/products?category=casual"
-                        className="cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[200px] hover:scale-[1.02] transition"
-                    >
-                        <p className="absolute top-4 left-4 text-lg font-semibold z-10">Casual</p>
-                        <img src="/casual.png" className="w-full h-full object-cover" />
-                    </Link>
+                    <div className="lg:col-span-2 cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[200px] hover:scale-[1.02] transition">
+                        <Link
+                            to="/products?category=casual"
+
+                        >
+                            <p className="absolute top-4 left-4 text-lg font-semibold z-10">Casual</p>
+                            <img src="/casual.png" className="w-full h-full object-cover" />
+                        </Link>
+                    </div>
 
                     {/* Formal */}
-                    <Link
-                        to="/products?category=formal"
-                        className="cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[200px] hover:scale-[1.02] transition"
-                    >
-                        <p className="absolute top-4 left-4 text-lg font-semibold z-10">Formal</p>
-                        <img src="/formal.png" className="w-full h-full object-cover" />
-                    </Link>
+                    <div className="lg:col-span-3 cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[200px] hover:scale-[1.02] transition">
+                        <Link
+                            to="/products?category=formal"
+                        >
+                            <p className="absolute top-4 left-4 text-lg font-semibold z-10">Formal</p>
+                            <img src="/formal.png" className="w-full h-full object-cover" />
+                        </Link>
+                    </div>
 
                     {/* Party */}
-                    <Link
-                        to="/products?category=party"
-                        className="cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[220px]"
-                    >
-                        <p className="absolute top-4 left-4 text-lg font-semibold z-10">Party</p>
-                        <img src="/party.png" className="w-full h-full object-cover" />
-                    </Link>
+                    <div className="lg:col-span-3 cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[200px] hover:scale-[1.02] transition">
+                        <Link
+                            to="/products?category=party"
+                        >
+                            <p className="absolute top-4 left-4 text-lg font-semibold z-10">Party</p>
+                            <img src="/party.png" className="w-full h-full object-cover" />
+                        </Link>
+                    </div>
 
                     {/* Gym */}
-                    <Link
-                        to="/products?category=gym"
-                        className="cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[220px]"
-                    >
-                        <p className="absolute top-4 left-4 text-lg font-semibold z-10">Gym</p>
-                        <img src="/gym.png" className="w-full h-full object-cover" />
-                    </Link>
+                    <div className="lg:col-span-2 cursor-pointer relative bg-white rounded-[20px] overflow-hidden h-[180px] sm:h-[200px] hover:scale-[1.02] transition">
+                        <Link
+                            to="/products?category=gym"
+                        >
+                            <p className="absolute top-4 left-4 text-lg font-semibold z-10">Gym</p>
+                            <img src="/gym.png" className="w-full h-full object-cover" />
+                        </Link>
+                    </div>
                 </div>
 
             </div>
