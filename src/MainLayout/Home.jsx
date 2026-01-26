@@ -4,6 +4,7 @@ import Hero from '../Pages/Hero/Hero'
 import NewArival from '../Pages/New Arival/NewArival'
 import TopSelling from '../Pages/Top Selling/TopSelling'
 import Browsers from '../Pages/Browsers/Browsers'
+import Review from '../Pages/Review/Review'
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
             <NewArival />
             <TopSelling />
             <Browsers />
+            <Review />
         </div>
     )
 }
